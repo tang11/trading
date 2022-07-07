@@ -8,6 +8,7 @@ public class TradingLog {
 
     private Long id;
 
+
     private Long accountId;
 
     private Long createTime;
