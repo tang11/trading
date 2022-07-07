@@ -2,6 +2,7 @@ package com.example.trading.dao;
 
 import com.example.trading.entity.TradingLog;
 import com.example.trading.mapper.PriceAggregationMapper;
+import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
@@ -11,6 +12,7 @@ import java.util.List;
  * @author tanglijuan
  * @date 2022/7/7
  */
+@Repository
 public class PriceAggregationDAO {
 
     @Resource
